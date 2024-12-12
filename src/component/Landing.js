@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 const Landing = () => {
   return (
     <div className="px-28 lg:px-8">
-      <Navbar />
       <div className="flex justify-between mt-16 gap-10 md:flex-col-reverse">
         <div className="flex flex-col max-w-xl lg:max-w-sm">
           <p className="text-6xl font-medium leading-snug lg:text-4xl">
@@ -22,7 +20,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="flex gap-24 h-auto mt-16 lg:grid grid-cols-3 lg:gap-10 md:grid-cols-2">
+      <div className="flex justify-between h-auto mt-16 lg:grid grid-cols-3 lg:gap-10 md:grid-cols-2">
         <img src="amazon.png" alt="Amazon" className="h-12" />
         <img src="dribble.png" alt="Dribble" className="h-12" />
         <img src="hubspot.png" alt="Hubspot" className="h-12" />
