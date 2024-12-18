@@ -1,7 +1,8 @@
 import React from 'react'
-import Aboutlanding from '../component/Aboutlanding'
-import Journey from '../component/Journey'
-import Values from '../component/Values'
+import Aboutlanding from '../component/aboutus/Aboutlanding'
+import Journey from '../component/aboutus/Journey'
+import Values from '../component/aboutus/Values'
+import Award from '../component/aboutus/Award'
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
       <Aboutlanding />
       <Journey />
       <Values />
+      <Award />
     </>
   )
 }

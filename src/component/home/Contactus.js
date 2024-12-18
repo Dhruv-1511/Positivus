@@ -3,8 +3,8 @@ import React from 'react'
 const Contactus = () => {
     return (
         <div className='mt-40 px-20 md:px-8 md:mt-28'>
-            <div className='flex  md:flex-col'>
-                <p className='bg-lime-300 text-5xl p-2 rounded-lg font-medium md:text-xl md:text-center '>Contact Us </p>
+            <div className='flex  md:flex-col md:items-center'>
+                <p className='bg-customLime text-5xl p-2 rounded-lg font-medium md:text-xl md:text-center '>Contact Us </p>
                 <p className='max-w-md text-xl px-9 md:text-sm md:mt-4 md:text-center'>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
             </div>
 

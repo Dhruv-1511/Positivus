@@ -1,17 +1,17 @@
 import React from 'react';
-import employee from '../assets/Employee';
+import employee from '../../assets/Employee';
 
 const Team = () => {
     return (
         <div className='mt-40 px-20 md:px-8 md:mt-28'>
-            <div className='flex  md:flex-col'>
-                <p className='bg-lime-300 text-5xl p-2 rounded-lg font-medium md:text-xl md:text-center'>Team </p>
+            <div className='flex md:flex-col md:items-center'>
+                <p className='bg-customLime text-5xl p-2 rounded-lg font-medium md:text-xl md:text-center'>Team </p>
                 <p className='max-w-xl text-xl px-9 md:text-sm md:mt-4 md:text-center'>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
             </div>
 
             <div className="grid grid-cols-3 gap-1 mt-10 lg:grid-cols-2 md:flex flex-col ">
                 {employee.map((val, index) => (
-                    <div key={index} className="flex flex-col items-center mt-10 max-w-[415px] p-9 border-2 rounded-3xl border-black shadow-[0px_7px_5px_0px]">
+                    <div key={index} className="flex flex-col items-center mt-10 max-w-[415px] p-9 border-2 rounded-3xl border-black shadow-[0px_5px_1px_-1px]">
                         <div className="flex justify-between w-full ">
                             <img src={val.imag} alt={val.name} className="h-[105px] md:h-[60px]" />
                             <div className="flex flex-col-reverse ">
@@ -27,7 +27,7 @@ const Team = () => {
             </div>
 
             <div className='flex justify-end'>
-                <button className="mt-8  bg-black text-white text-xl w-64 h-16 rounded-xl hover:bg-white hover:text-black hover:border-2 black lg:text-sm lg:w-48 lg:h-12">See all team</button>
+                <button className="mt-8  bg-black text-white border-2 border-black text-xl w-64 h-16 rounded-xl hover:bg-white hover:text-black lg:text-sm lg:w-48 lg:h-12">See all team</button>
             </div>
         </div>
     );

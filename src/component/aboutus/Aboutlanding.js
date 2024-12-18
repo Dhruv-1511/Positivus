@@ -12,13 +12,13 @@ const Aboutlanding = () => {
             </div>
 
             <div>
-                <div className='flex mt-20 md:flex-col'>
-                    <p className='bg-lime-300 text-3xl p-2 rounded-lg font-medium md:text-lg md:text-center'>Our Impact in Numbers</p>
+                <div className='flex mt-20 md:flex-col md:items-center'>
+                    <p className='bg-customLime text-3xl p-2 rounded-lg font-medium md:text-lg md:text-center'>Our Impact in Numbers</p>
                     <p className='max-w-xl text-xl px-9 md:text-sm md:mt-4 md:text-center'>A snapshot of the milestones and achievements that drive our success</p>
                 </div>
                 
                 <div className='mt-20 grid grid-cols-5 sm:grid-cols-2'>
-                    <div className='border-t-2 border-black p-10 rounded-3xl'>
+                    <div className='border-t-2 border-black p-10 rounded-r-3xl sm:rounded-3xl'>
                         <p className='text-3xl font-semibold'>8+</p>
                         <p className='text-lg sm:text-base'>Years of Experience</p>
                     </div>
@@ -34,7 +34,7 @@ const Aboutlanding = () => {
                         <p className='text-3xl font-semibold'>20+</p>
                         <p className='text-lg'>Industry Awards</p>
                     </div>
-                    <div className='border-t-2 border-black p-10 rounded-3xl'>
+                    <div className='border-t-2 border-black p-10 rounded-l-3xl sm:rounded-3xl'>
                         <p className='text-3xl font-semibold'>500%</p>
                         <p className='text-lg'>Industry Awards</p>
                     </div>

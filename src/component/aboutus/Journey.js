@@ -1,11 +1,11 @@
 import React from 'react';
-import jour from '../assets/Journeys';
+import jour from '../../assets/Journeys';
 
 const Journey = () => {
     return (
         <div className='px-28 lg:px-8'>
-            <div className='flex mt-20 md:flex-col'>
-                <p className='bg-lime-300 text-3xl p-2 rounded-lg font-medium md:text-lg md:text-center'>Our Journey</p>
+            <div className='flex mt-20 md:flex-col md:items-center'>
+                <p className='bg-customLime text-3xl p-2 rounded-lg font-medium md:text-lg md:text-center md:w-fit '>Our Journey</p>
                 <p className='max-w-3xl text-xl px-9 md:text-sm md:mt-4 md:text-center'>From humble beginnings to industry leaders, discover how Positivus has evolved to drive success for businesses worldwide.</p>
             </div>
 

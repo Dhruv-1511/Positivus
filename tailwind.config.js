@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         customDark: '#191A23',
-        customGrey: '#292A32'
+        customGrey: '#292A32',
+        customLime: '#B9FF66'
       },
       screens: {
         sm: { max: '640px' },

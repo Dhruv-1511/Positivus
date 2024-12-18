@@ -6,19 +6,19 @@ const Footer = () => {
             <div className='flex justify-between lg:flex-col lg:item-center'>
                 <div className="flex items-center gap-2 lg:justify-center">
                     <img src="logo2.png" alt="logo" className="w-8 h-8 lg:w-6 lg:h-6" />
-                    <p className="text-4xl text-white lg:text-2xl">Positivus</p>
+                    <a href='/'><p className="text-4xl text-white lg:text-2xl">Positivus</p></a>
                 </div>
                 <nav className='flex gap-8 md:flex-col lg:mt-5 md:gap-4 lg:text-center'>
-                    <a href='about.js' className='text-white text-lg underline'>About us</a>
-                    <a href='about.js' className='text-white text-lg underline'>Services</a>
-                    <a href='about.js' className='text-white text-lg underline'>Use Cases</a>
-                    <a href='about.js' className='text-white text-lg underline'>Pricing</a>
-                    <a href='about.js' className='text-white text-lg underline'>Blog</a>
+                    <a href='/about' className='text-white text-lg underline'>About us</a>
+                    <a href='/service' className='text-white text-lg underline'>Services</a>
+                    <a href='/usecase' className='text-white text-lg underline'>Use Cases</a>
+                    <a href='/pric' className='text-white text-lg underline'>Pricing</a>
+                    <a href='/blog' className='text-white text-lg underline'>Blog</a>
                 </nav>
                 <div className='flex gap-4 lg:mt-5 lg:justify-center'>
-                    <img src='linkedin1.png' alt='' className='h-8' />
-                    <img src='facebook.png' alt='' className='h-8' />
-                    <img src='twitter.png' alt='' className='h-8' />
+                    <img src='linkedin1.png' alt='' className='h-8 cursor-pointer' />
+                    <img src='facebook.png' alt='' className='h-8 cursor-pointer' />
+                    <img src='twitter.png' alt='' className='h-8 cursor-pointer' />
                 </div>
             </div>
 
@@ -31,8 +31,8 @@ const Footer = () => {
                     <p className='text-white text-lg md:text-base'>Moonstone City, Stardust State 12345</p>
                 </div>
                 <div className='bg-customGrey h-fit p-20 rounded-xl flex gap-3 lg:p-8 lg:flex-col md:mt-5'>
-                    <input type='text' placeholder='Email' className='bg-transparent p-5 border border-white rounded-xl text-xl lg:text-base' />
-                    <button className='bg-lime-300 p-5 rounded-xl text-xl lg:text-sm'>Subscribe to news</button>
+                    <input type='text' placeholder='Email' className='bg-transparent p-5 border border-white text-white rounded-xl text-xl lg:text-base' />
+                    <button className='bg-customLime p-5 rounded-xl text-xl hover:bg-white lg:text-sm'>Subscribe to news</button>
                 </div>
             </div>
 

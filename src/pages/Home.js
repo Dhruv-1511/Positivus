@@ -1,12 +1,11 @@
 import React from 'react'
-import Landing from '../component/Landing'
-import Serviceblok from '../component/Serviceblok'
-import Casestudy from '../component/Casestudy'
-import Working from '../component/Working'
-import Team from '../component/Team'
+import Landing from '../component/home/Landing'
+import Serviceblok from '../component/home/Serviceblok'
+import Casestudy from '../component/home/Casestudy'
+import Working from '../component/home/Working'
+import Team from '../component/home/Team'
 import Testimonial from '../component/Testimonial'
-import Contactus from '../component/Contactus'
-import Footer from '../component/Footer'
+import Contactus from '../component/home/Contactus'
 
 const Home = () => {
     return (
@@ -18,7 +17,6 @@ const Home = () => {
             <Team />
             <Testimonial />
             <Contactus />
-            <Footer />
         </>
 
     )
