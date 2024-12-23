@@ -10,10 +10,11 @@ import Price from './pages/Price';
 import Blog from './pages/Blog';
 
 function App() {
+
   return (
     <>
       <BrowserRouter>
-      <Navbar  />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -23,7 +24,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
-        <Footer />
+      <Footer />
     </>
   );
 }

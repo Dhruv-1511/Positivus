@@ -7,7 +7,7 @@ const Usecases = () => {
     <>
        <Usecaselanding /> 
        <Stories />
-    </>
+   </>
   )
 }
 

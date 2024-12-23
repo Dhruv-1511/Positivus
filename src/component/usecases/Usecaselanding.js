@@ -11,7 +11,7 @@ const Usecaselanding = () => {
             </div>
         </div>
 
-        <div className='flex p-16 bg-customDark rounded-3xl mt-28 gap-10 justify-between md:flex-col'>
+        <div className='flex p-16 bg-customDark rounded-3xl mt-28 gap-10 justify-between md:flex-col md:items-center'>
             <div className='flex flex-col justify-between max-w-[635px]'>
                 <p className='bg-customLime text-5xl w-fit rounded-lg p-1 lg:text-2xl'>Featured Success Story</p>
                 <p className='text-white text-5xl mt-5 lg:text-xl '>Scaling Success for a Leading E-Commerce Brand</p>

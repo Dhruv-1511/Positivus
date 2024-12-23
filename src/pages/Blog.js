@@ -8,7 +8,7 @@ const Blog = () => {
     <div>
         <Bloglanding />
         <Blogcontent />
-        <Insights />
+        <Insights />  
     </div>
   )
 }

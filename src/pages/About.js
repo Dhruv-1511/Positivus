@@ -10,7 +10,7 @@ const About = () => {
       <Aboutlanding />
       <Journey />
       <Values />
-      <Award />
+      <Award />  
     </>
   )
 }

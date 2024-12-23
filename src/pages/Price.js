@@ -6,7 +6,7 @@ const Price = () => {
   return (
     <div>
         <Pricelanding />
-        <Faq />
+        <Faq />    
     </div>
   )
 }

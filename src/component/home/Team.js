@@ -9,7 +9,7 @@ const Team = () => {
                 <p className='max-w-xl text-xl px-9 md:text-sm md:mt-4 md:text-center'>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-1 mt-10 lg:grid-cols-2 md:flex flex-col ">
+            <div className="grid grid-cols-3 gap-5 mt-10 lg:grid-cols-2 md:flex md:items-center flex-col md:gap-1">
                 {employee.map((val, index) => (
                     <div key={index} className="flex flex-col items-center mt-10 max-w-[415px] p-9 border-2 rounded-3xl border-black shadow-[0px_5px_1px_-1px]">
                         <div className="flex justify-between w-full ">

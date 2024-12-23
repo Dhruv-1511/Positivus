@@ -30,10 +30,10 @@ const Testimonial = () => {
             </div>
 
             <div className='bg-customDark mt-20 py-16 rounded-3xl md:py-8'>
-                <div className='flex gap-16 overflow-hidden p-10 ' ref={scrollRef}>
+                <div className='flex gap-16 overflow-hidden p-10' ref={scrollRef}>
                     {testasset.map((val, index) => (
                         <div key={index}  >
-                            <p className='text-white w-[550px] text-lg p-10 border border-lime-300 rounded-3xl md:w-[300px] md:p-5'>{val.message}</p>
+                            <p className='text-white w-[550px] text-lg p-10 border border-lime-300 rounded-3xl md:w-[280px] md:p-5'>{val.message}</p>
                             <div className='ml-10 mt-10'>
                                 <p className='text-lime-300 text-xl'>{val.name}</p>
                                 <p className='text-white text-lg'>{val.position}</p>
@@ -42,7 +42,7 @@ const Testimonial = () => {
                     ))}
                 </div>
                 <div className='flex justify-center mt-16 gap-96 md:gap-24 md:mt-8'>
-                    <img src='leftarrow.png' alt='' onClick={() => scroll('left')} className='cursor-pointer' />
+                    <img src='leftarrow.png' alt='' onClick={() => scroll('left')} className=' cursor-pointer' />
                     <img src='rightarrow.png' alt='' onClick={() => scroll('right')} className='cursor-pointer' />
                 </div>
             </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div className="px-28 lg:px-8">
-      <div className="flex justify-between mt-16 gap-10 md:flex-col-reverse">
+    <div id='home' className="px-28 lg:px-8">
+      <div className="flex justify-between mt-16 gap-10 md:flex-col-reverse md:items-center">
         <div className="flex flex-col max-w-xl lg:max-w-sm">
           <p className="text-6xl font-medium leading-snug lg:text-4xl">
             Navigating the digital landscape for success
